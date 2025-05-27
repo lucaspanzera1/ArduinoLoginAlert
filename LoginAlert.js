@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import { SerialPort } from 'serialport';
 
-const port = new SerialPort({ path: '/dev/tty.usbmodem1101', baudRate: 9600 });
+const port = new SerialPort({ path: '/dev/ttyACM0', baudRate: 9600 });
 
 port.on('open', () => {
   console.log('Porta serial aberta!');

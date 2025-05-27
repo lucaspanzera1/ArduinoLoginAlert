@@ -2,7 +2,7 @@
   "name": "arduinologinalert",
   "version": "1.0.0",
   "description": "API que busca Login na TaskManager API, e envia um comando ao Arduino",
-  "main": "client-local.js",
+  "main": "LoginAlert.js",
   "scripts": {
     "start": "LoginAlert.js",
     "test": "echo \"Error: no test specified\" && exit 1"
