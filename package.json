@@ -1,0 +1,24 @@
+{
+  "name": "arduinologinalert",
+  "version": "1.0.0",
+  "description": "API que busca Login na TaskManager API, e envia um comando ao Arduino",
+  "main": "client-local.js",
+  "scripts": {
+    "start": "LoginAlert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspanzera1/ArduinoLoginAlert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaspanzera1/ArduinoLoginAlert/issues"
+  },
+  "homepage": "https://github.com/lucaspanzera1/ArduinoLoginAlert#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "serialport": "^13.0.0"
+  }
+}
