@@ -1,6 +1,9 @@
-# ArduinoLoginAlert
+# ArduinoLoginAlert 🔐
+![License](https://img.shields.io/badge/lucaspanzera-ArduinoLoginAlert-cyan) ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Desenvolendo-cyan)</br>
+Uma aplicação Node.js que roda localmente e se comunica com um Arduino via USB. Ela monitora uma API externa hospedada na nuvem (no caso, a [ArduinoLoginAlert](https://github.com/lucaspanzera1/TaskManagerAPI)) e, ao detectar um login bem-sucedido, envia um comando para o Arduino executar efeitos visuais e motores como uma forma de "alerta físico".
 
-**ArduinoLoginAlert** é uma aplicação Node.js que roda localmente e se comunica com um Arduino via USB. Ela monitora uma API externa hospedada na nuvem (no caso, a [TaskManagerAPI](https://taskmanagerapi-production-ad12.up.railway.app/api/)) e, ao detectar um login bem-sucedido, envia um comando para o Arduino executar efeitos visuais e motores como uma forma de "alerta físico".
+![ArduinoLoginAlert](git/img/header.png)
+
 
 ---
 
@@ -102,6 +105,9 @@ A [TaskManagerAPI](https://github.com/lucaspanzera1/TaskManagerAPI) é uma API R
 A rota `/login` foi modificada para, após um login bem-sucedido, **gravar um "sinal" de login recente em um banco ou variável em memória**. O `LoginAlert.js` faz polling nessa rota para verificar se deve ativar o Arduino.
 
 ---
+
+## 🖥️ Exemplo de Hardware Arduino
+<img src="git/img/arduino.png" alt="ArduinoLoginAlert" width="350">
 
 ## 🔍 Exemplo de firmware Arduino
 
