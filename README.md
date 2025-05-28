@@ -1,5 +1,5 @@
 # ArduinoLoginAlert 🔐
-![License](https://img.shields.io/badge/lucaspanzera-ArduinoLoginAlert-cyan) ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Desenvolendo-cyan)</br>
+![License](https://img.shields.io/badge/lucaspanzera-ArduinoLoginAlert-cyan) ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-cyan)</br>
 Uma aplicação Node.js que roda localmente e se comunica com um Arduino via USB. Ela monitora uma API externa hospedada na nuvem (no caso, a [ArduinoLoginAlert](https://github.com/lucaspanzera1/TaskManagerAPI)) e, ao detectar um login bem-sucedido, envia um comando para o Arduino executar efeitos visuais e motores como uma forma de "alerta físico".
 
 ![ArduinoLoginAlert](git/img/header.png)
